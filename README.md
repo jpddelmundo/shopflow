@@ -6,6 +6,14 @@ Shopflow ETL is a project that demonstrates the use of different data engineerin
 2. ***Transform*** the data by correcting data inaccuracies/inconsistencies, filling missing values, and removing duplicates. Then;
 3. ***Load*** the data on a data warehouse, where further analysis can be taken by other data teams. 
 
+## Project Objectives
+
+1. To simulate data ingestion by creating fake ingestion scenario(s), accomplished by creating fake data sets and API calls (see )
+2. To setup a staging tables, where the initial data transformations will take place (see ),
+3. To create bronze (raw), silver (cleaned), gold (aggregated) layers for progressive data quality refinement,
+4. To create a data warehouse, following the star schema data model, to easily understand and analyze sales data,
+5. To automate the entire thing using a workflow orchestration tool.
+
 ## Clone the repository
 
 ```bash
