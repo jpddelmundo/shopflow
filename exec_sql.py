@@ -17,6 +17,6 @@ else:
         raise FileNotFoundError(f"{repr(sys.argv[1])} does not exists.")
     with open(sys.argv[1], "r") as sql:
         try:
-            cursor.execute(sql.read())
+            print(cursor.sql(sql.read()))
         except InternalError as e:
             raise e
