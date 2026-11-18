@@ -4,7 +4,7 @@ from pathlib import Path
 
 from duckdb import InternalError
 
-from staging.stage_data import duckdb_conn
+from warehouse.initdb import duckdb_conn
 
 
 cursor = duckdb_conn.cursor()
