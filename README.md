@@ -1,5 +1,10 @@
 # Shopflow ETL
 
+Shopflow ETL is a project that demonstrates the use of different data engineering tools for achieving the following tasks: 
+
+1. *Extract* raw data from various data sources, with different formats, and store them on a temporary data storage where we can;
+2. *Transform* the data by correcting data inaccuracies/inconsistencies, filling missing values, and removing duplicates. Then;
+3. *Load* the data on a data warehouse, where further analysis can be taken by other data teams. 
 
 ## Clone the repository
 
