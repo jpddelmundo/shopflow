@@ -5,5 +5,5 @@ data/
 airflow/
 __pycache__/
 dags/__pycache__/
-staging/__pycache__/
+warehouse/__pycache__/
 lake/
